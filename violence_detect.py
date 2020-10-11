@@ -33,7 +33,7 @@ def moderate_image(photo, bucket):
 
 def main():
     photo='7b82749466e76b11ca11e6e85eec6225.3.jpg'
-    bucket='intelbucket'
+    bucket=''
     label_count=moderate_image(photo, bucket)
     print("Labels detected: " + str(label_count))
 
