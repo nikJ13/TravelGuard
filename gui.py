@@ -27,9 +27,9 @@ def work():
         import boto3
         from botocore.client import Config
 
-        ACCESS_KEY_ID = 'AKIA3567LTQY7YZCF5M7'
-        ACCESS_SECRET_KEY = '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'
-        BUCKET_NAME = 'newintelbucket'
+        ACCESS_KEY_ID = ''
+        ACCESS_SECRET_KEY = ''
+        BUCKET_NAME = ''
         data = open(s, 'rb')
 
         s3 = boto3.resource(
